@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+body{
+    margin: 0;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #B2ABF2;
+}
+
+.header{
+    background-color: #6424FC;
+    width: 95vw;
+    height: 20vh;
+    position: fixed;
+    top: 10px;
+    left: 2.5vw;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+#logo{ /* !CAMBIAR TAMANO DEL LOGO */
+    height: 90%;
+    position: relative;
+    top: 5%;
+
+}
+
+.navbar{
+    width: 55%;
+    height: 100%;
+    font-family: 'Monda', sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-list > li{
+    margin: 25px;
+}
+
+.nav-list > li:hover{
+    border-bottom: 1px solid black;
+}
+
+a, a:hover, a:visited, a:focus, a:active{ /* ? COMO FUNCA ESTO */
+    text-decoration: none;
+    color: inherit;
+}
