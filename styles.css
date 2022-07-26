@@ -21,12 +21,14 @@ body{
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
 }
 
 #logo{ /* !CAMBIAR TAMANO DEL LOGO */
     height: 90%;
     position: relative;
     top: 5%;
+    left: 10%;
 
 }
 
@@ -52,10 +54,10 @@ body{
 }
 
 .nav-list > li:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
-a, a:hover, a:visited, a:focus, a:active{ /* ? COMO FUNCA ESTO */
+a:hover, a:visited, a:focus, a:active, a:link{ 
     text-decoration: none;
     color: inherit;
 }
