@@ -50,7 +50,7 @@ body{
 }
 
 .nav-list > li{
-    gap: 25px;
+    margin-left: 5%;
     color: white;
 }
 
@@ -148,7 +148,7 @@ a:hover, a:visited, a:focus, a:active, a:link{
     font-size: 16px;
     width: 15vw;
     height: 5vh;
-    margin-left: 30px;
+    margin-left: 3px;
     background-color: #380036;
     color: white;
     border-radius: 15px;
@@ -219,7 +219,7 @@ a:hover, a:visited, a:focus, a:active, a:link{
 
 @media(max-width:1200px){
     *{
-        font-size: 90%;
+        font-size: 0.9em;
     }
     
     #img-join{
@@ -239,12 +239,12 @@ a:hover, a:visited, a:focus, a:active, a:link{
     }
 
     .phrase{
-        font-size: 18px;
+        font-size: 3em;
         margin: 2%;
     }
 
     .autor{
-        font-size: 14px;
+        font-size: 2.5em;
     }
 
     
@@ -287,7 +287,7 @@ a:hover, a:visited, a:focus, a:active, a:link{
     }
 
     #description{
-        font-size: 18px;
+        font-size: 2em;
     }
 
     .navbar{
@@ -295,3 +295,56 @@ a:hover, a:visited, a:focus, a:active, a:link{
     }
 
 }   
+
+@media (max-width: 500px) and (max-height:1000px){
+
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo{
+        height: 60%;
+        width: 50%;
+        left:2.5%
+    }
+
+    .nav-list > li{
+        font-size: 0.8em;
+        margin-right: 3.5%;
+        margin-left: 3.5%;
+    }
+
+    main{
+        font-size: 0.7em;
+    }
+
+    .autor{
+        left: 50%;
+    }
+
+    .buttons > button{
+        width: 40vw;
+    }
+
+    #img-join{
+        left: 2%;
+    }
+
+    .description{
+        position: absolute;
+        height: auto;
+        right: 50%;
+        top: 111.5%; /* ? No se porque lo hice asi pero funciona, lo voy a cambiar */
+    }
+
+    #description{
+        font-size: 1.5em;
+        margin-top: 10%;
+    }
+
+    #img-classroom{
+        /* !Modificar el tamano de la imagen, no se ve */
+    }
+}
