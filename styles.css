@@ -4,17 +4,27 @@ body{
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background:linear-gradient(#B2ABF2, #7467EC, #6424FC);
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    place-items: center;
+    background-image: linear-gradient(
+        180deg,
+        hsl(246deg 73% 81%) 0%,
+        hsl(246deg 74% 78%) 18%,
+        hsl(246deg 75% 75%) 32%,
+        hsl(246deg 77% 71%) 43%,
+        hsl(246deg 77% 68%) 53%,
+        hsl(247deg 80% 65%) 62%,
+        hsl(250deg 84% 63%) 71%,
+        hsl(253deg 89% 61%) 80%,
+        hsl(255deg 93% 59%) 89%,
+        hsl(258deg 97% 56%) 100%
+    );
 }
 
 .header{
     background-color: #6424FC;
     width: 95vw;
     height: 20vh;
+    margin-left: 2.5vw;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
@@ -64,11 +74,24 @@ a:hover, a:visited, a:focus, a:active, a:link{
 }
 
 .home{
-    width: 100%;
-    height: 700px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(
+        180deg,
+        hsl(246deg 73% 81%) 0%,
+        hsl(246deg 74% 78%) 18%,
+        hsl(246deg 75% 75%) 32%,
+        hsl(246deg 77% 71%) 43%,
+        hsl(246deg 77% 68%) 53%,
+        hsl(247deg 80% 65%) 62%,
+        hsl(250deg 84% 63%) 71%,
+        hsl(253deg 89% 61%) 80%,
+        hsl(255deg 93% 59%) 89%,
+        hsl(258deg 97% 56%) 100%
+    );
 }
 
 .hero{
@@ -187,7 +210,7 @@ a:hover, a:visited, a:focus, a:active, a:link{
 .description-container{
     background: linear-gradient(#F1D3D6, #380036);
     width: 100vw;
-    height: 550px;
+    height: 100vh;
     display: flex;
 }
 
@@ -215,6 +238,112 @@ a:hover, a:visited, a:focus, a:active, a:link{
     margin-top: 15%;
     text-align: center;
     font-size: 24px;
+}
+
+.cards{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+        355deg,
+        hsl(254deg 88% 20%) 0%,
+        hsl(236deg 81% 27%) 25%,
+        hsl(218deg 75% 35%) 47%,
+        hsl(200deg 68% 42%) 63%,
+        hsl(182deg 62% 49%) 75%,
+        hsl(164deg 55% 56%) 84%,
+        hsl(145deg 48% 64%) 90%,
+        hsl(128deg 42% 71%) 96%,
+        hsl(110deg 36% 78%) 100%
+    
+    );
+    display: flex;
+    flex-direction: column;
+}
+
+.title-cards{
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    
+    text-align: center;
+    place-items: center;
+    color: white;
+}
+
+.title-cards > h2{
+    font-size: 2rem;
+}
+
+.title-cards > h3{
+    font-size: 1.5rem;
+}
+
+.benefits{
+    height: 80%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.benefit{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    background-color: black;
+}
+
+.contact{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    background-image: linear-gradient(
+        0deg,
+        hsl(203deg 36% 44%) 0%,
+        hsl(201deg 45% 42%) 25%,
+        hsl(200deg 52% 40%) 47%,
+        hsl(198deg 60% 38%) 63%,
+        hsl(197deg 68% 36%) 75%,
+        hsl(195deg 76% 34%) 84%,
+        hsl(193deg 84% 32%) 90%,
+        hsl(192deg 92% 30%) 96%,
+        hsl(190deg 100% 28%) 100%
+    );
+}
+
+.map-contact{
+    width: 40%;
+    height: 100%;
+}
+
+#map{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+
+.info-contact{
+    width: 60%;
+    height: 90%;
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.title-contact{
+    font-size: 3rem;
+}
+
+
+#footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #6424FC;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
 }
 
 @media(max-width:1200px){
