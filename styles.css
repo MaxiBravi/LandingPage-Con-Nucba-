@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 body{
     width: 100vw;
@@ -73,7 +74,7 @@ a:hover, a:visited, a:focus, a:active, a:link{
     color: inherit;
 }
 
-.home{
+#home{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -207,7 +208,7 @@ a:hover, a:visited, a:focus, a:active, a:link{
     z-index: 3;
 }
 
-.description-container{
+#description-container{
     background: linear-gradient(#F1D3D6, #380036);
     width: 100vw;
     height: 100vh;
@@ -240,7 +241,7 @@ a:hover, a:visited, a:focus, a:active, a:link{
     font-size: 24px;
 }
 
-.cards{
+#cards{
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(
@@ -292,7 +293,7 @@ a:hover, a:visited, a:focus, a:active, a:link{
     background-color: black;
 }
 
-.contact{
+#contact{
     width: 100vw;
     height: 90vh;
     display: flex;
@@ -325,6 +326,7 @@ a:hover, a:visited, a:focus, a:active, a:link{
     width: 60%;
     height: 90%;
     margin-top: 2.5%;
+    margin-left: 20%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -335,6 +337,16 @@ a:hover, a:visited, a:focus, a:active, a:link{
     font-size: 3rem;
 }
 
+.cont{
+    display: flex;
+    width: 100%;
+}
+
+.cont > i{
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+    color: #6424FC;
+}
 
 #footer{
     width: 100vw;
@@ -344,6 +356,15 @@ a:hover, a:visited, a:focus, a:active, a:link{
     display: flex;
     place-items: center;
     justify-content: space-around;
+}
+
+#maxibravi{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 2rem;
+}
+
+.fa-solid{
+    font-size: 2rem;
 }
 
 @media(max-width:1200px){
